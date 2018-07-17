@@ -25,14 +25,14 @@ function download_node() {
   cd $TMP_FOLDER >/dev/null 2>&1
   rm $COIN_ZIP >/dev/null 2>&1
   wget -q $COIN_TGZ
-  compile_error
+  compile_erro
   tar xvzf $COIN_ZIP >/dev/null 2>&1
   cd slate-0.1.03/bin
   chmod +x $COIN_DAEMON $COIN_CLI
-  compile_error
+  compile_erro
   cp $COIN_DAEMON $COIN_CLI $COIN_PATH
   cd - >/dev/null 2>&1
-  clear
+  clea
 }
 
 
@@ -107,7 +107,7 @@ function create_key() {
   fi
   $COIN_CLI stop
 fi
-clear
+clea
 }
 
 function update_config() {
@@ -211,7 +211,7 @@ bsdmainutils libdb4.8++-dev libminiupnpc-dev libgmp3-dev ufw fail2ban pkg-config
  exit 1
 fi
 
-clear
+clea
 }
 
 function important_information() {
@@ -239,7 +239,7 @@ function setup_node() {
 
 
 ##### Main #####
-clear
+clea
 
 checks
 prepare_system
