@@ -1,10 +1,10 @@
-# Slate Masternode Setup Guide (Ubuntu 16.04)
+# Ion Core Masternode Setup Guide (Ubuntu 16.04)
 This guide will assist you in setting up a Slate Masternode on a Linux Server running Ubuntu 16.04. (Use at your own risk)
 
 If you require further assistance contact the support team @ [Discord](https://discord.gg/ENuwHH5)
 ***
 ## Requirements
-1) **350,000  SLX coins.**
+1) **20,000  ION coins.**
 2) **A VPS running Linux Ubuntu 16.04.**
 3) **A Windows local wallet.**
 4) **An SSH client such as [Bitvise](https://dl.bitvise.com/BvSshClient-Inst.exe)**
@@ -101,13 +101,13 @@ If you require further assistance contact the support team @ [Discord](https://d
 * Paste the code below into the Bitvise terminal then press enter (it will just go to a new line)
 ![Example-RootPassEnter](https://i.imgur.com/K6xlnav.png)
 
-`wget -q https://raw.githubusercontent.com/slatecurrency/slate-mn-setup/master/slate_install.sh`
+`wget -q https://raw.githubusercontent.com/cevap/ion-mn-setup/master/ion_install.sh`
 ***
 
 ***Step 8***
 * Paste the code below into the Bitvise terminal then press enter
 
-`bash slate_install.sh`
+`bash ion_install.sh`
 
 ![Example-Bash](https://i.imgur.com/myvmKTE.png)
 
@@ -132,11 +132,11 @@ If you require further assistance contact the support team @ [Discord](https://d
 ## Section D: Preparing the Local wallet
 
 ***Step 1***
-* Download and install the Slate wallet [here](https://github.com/slatecurrency/slate/releases)
+* Download and install the Slate wallet [here](https://github.com/cevap/ion/releases)
 ***
 
 ***Step 2***
-* Send EXACTLY 350,000 SLX to a receive address within your wallet.
+* Send EXACTLY 20,000 SLX to a receive address within your wallet.
 ***
 
 ***Step 3***
