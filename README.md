@@ -132,11 +132,11 @@ If you require further assistance contact the support team @ [Discord](https://d
 ## Section D: Preparing the Local wallet
 
 ***Step 1***
-* Download and install the Slate wallet [here](https://github.com/cevap/ion/releases)
+* Download and install the Ion wallet [here](https://github.com/cevap/ion/releases)
 ***
 
 ***Step 2***
-* Send EXACTLY 20,000 SLX to a receive address within your wallet.
+* Send EXACTLY 20,000 ION to a receive address within your wallet.
 ***
 
 ***Step 3***
@@ -191,7 +191,7 @@ Click "File Save"
 ***step 4***
 * Check the status of your masternode within the VPS by using the command below:
 
-`slate-cli masternode status`
+`ion-cli masternode status`
 
 *You should see ***status 4***
 
