@@ -1,16 +1,16 @@
 #!/bin/bash
 
 TMP_FOLDER=$(mktemp -d)
-CONFIG_FILE='slate.conf'
-CONFIGFOLDER='/root/.slate'
-COIN_DAEMON='slated'
-COIN_CLI='slate-cli'
+CONFIG_FILE='ioncoin.conf'
+CONFIGFOLDER='/root/.ioncoin'
+COIN_DAEMON='iond'
+COIN_CLI='ion-cli'
 COIN_PATH='/usr/local/bin/'
-COIN_REPO='https://github.com/slatecurrency/slate.git'
-COIN_TGZ='https://github.com/slatecurrency/slate/releases/download/v0.1.03/slate-0.1.03-x86_64-linux-gnu.tar.gz'
+COIN_REPO='https://github.com/cevap/ion.git'
+COIN_TGZ='https://github.com/cevap/ion/releases/download/3.0.5/ion-3.0.5-x86_64-linux-gnu.tar.gz'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
-COIN_NAME='Slate'
-COIN_PORT=37415
+COIN_NAME='Ion Core'
+COIN_PORT=12700
 
 
 NODEIP=$(curl -s4 icanhazip.com)
@@ -197,13 +197,13 @@ apt-get update >/dev/null 2>&1
 apt-get install -y -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" make software-properties-common \
 build-essential libtool autoconf libssl-dev libboost-dev libboost-chrono-dev libboost-filesystem-dev libboost-program-options-dev \
 libboost-system-dev libboost-test-dev libboost-thread-dev sudo automake git wget pwgen curl libdb4.8-dev bsdmainutils libdb4.8++-dev \
-libminiupnpc-dev libgmp3-dev ufw pkg-config libevent-dev  libdb5.3++ unzip >/dev/null 2>&1
+libminiupnpc-dev libgmp3-dev ufw pkg-config libevent-dev unzip >/dev/null 2>&1
 if [ "$?" -gt "0" ];
   then
     echo -e "${RED}Not all required packages were installed properly. Try to install them manually by running the following commands:${NC}\n"
     echo "apt-get update"
     echo "apt -y install software-properties-common"
-    echo "apt-add-repository -y ppa:bitcoin/bitcoin"
+    echo "apt-add-repository -y ppa:ionomy/ion"
     echo "apt-get update"
     echo "apt install -y make build-essential libtool software-properties-common autoconf libssl-dev libboost-dev libboost-chrono-dev libboost-filesystem-dev \
 libboost-program-options-dev libboost-system-dev libboost-test-dev libboost-thread-dev sudo automake git pwgen curl libdb4.8-dev \
