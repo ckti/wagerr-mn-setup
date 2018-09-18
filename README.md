@@ -146,7 +146,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 ***step 4***
 * Go to the console within the wallet
 
-![Example-console](https://i.imgur.com/dlVowP2.png)
+![Example-console](https://i.imgur.com/VEgTGcY.png)
 ***
 
 ***Step 5***
