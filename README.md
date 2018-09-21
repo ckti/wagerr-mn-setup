@@ -1,7 +1,7 @@
 # Ion Core Masternode Setup Guide (Ubuntu 16.04)
 This guide will assist you in setting up a Slate Masternode on a Linux Server running Ubuntu 16.04. (Use at your own risk)
 
-If you require further assistance contact the support team @ [Discord](https://discord.gg/ENuwHH5)
+If you require further assistance contact the support team @ [Discord](https://discord.gg/BxQcqF)
 ***
 ## Requirements
 1) **20,000  ION coins.**
