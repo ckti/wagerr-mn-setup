@@ -1,5 +1,5 @@
-# Wagerr Coin Masternode Setup Guide (Ubuntu 16.04)
-This guide will assist you in setting up a Slate Masternode on a Linux Server running Ubuntu 16.04. (Use at your own risk)
+# Wagerr Coin Masternode Setup Guide (Ubuntu 16.04 and above)
+This guide will assist you in setting up a Wagerr Masternode on a Linux Server running Ubuntu 16.04 and above. (Use at your own risk)
 
 If you require further assistance contact the support team @ [Discord](https://discord.gg/BxQcqF)
 ***
@@ -101,13 +101,13 @@ If you require further assistance contact the support team @ [Discord](https://d
 * Paste the code below into the Bitvise terminal then press enter (it will just go to a new line)
 ![Example-RootPassEnter](https://i.imgur.com/K6xlnav.png)
 
-`wget -q https://raw.githubusercontent.com/cevap/ion-mn-setup/master/ion_install.sh`
+`wget -q https://raw.githubusercontent.com/cevap/wagerr-mn-setup/master/wagerr_install.sh`
 ***
 
 ***Step 8***
 * Paste the code below into the Bitvise terminal then press enter
 
-`bash ion_install.sh`
+`bash wagerr_install.sh`
 
 ![Example-Bash](https://i.imgur.com/myvmKTE.png)
 
@@ -132,11 +132,11 @@ If you require further assistance contact the support team @ [Discord](https://d
 ## Section D: Preparing the Local wallet
 
 ***Step 1***
-* Download and install the Ion wallet [here](https://github.com/cevap/ion/releases)
+* Download and install the Wagerr wallet [here](https://github.com/wagerr/wagerr/releases)
 ***
 
 ***Step 2***
-* Send EXACTLY 20,000 ION to a receive address within your wallet.
+* Send EXACTLY 25,000 WGR to a receive address within your wallet.
 ***
 
 ***Step 3***
@@ -191,7 +191,7 @@ Click "File Save"
 ***step 4***
 * Check the status of your masternode within the VPS by using the command below:
 
-`ion-cli masternode status`
+`wagerr-cli masternode status`
 
 *You should see ***status 4***
 
