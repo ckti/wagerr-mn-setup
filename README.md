@@ -1,10 +1,10 @@
-# Ion Core Masternode Setup Guide (Ubuntu 16.04)
+# Wagerr Coin Masternode Setup Guide (Ubuntu 16.04)
 This guide will assist you in setting up a Slate Masternode on a Linux Server running Ubuntu 16.04. (Use at your own risk)
 
 If you require further assistance contact the support team @ [Discord](https://discord.gg/BxQcqF)
 ***
 ## Requirements
-1) **20,000  ION coins.**
+1) **25,000  Wagerr coins.**
 2) **A VPS running Linux Ubuntu 16.04.**
 3) **A Windows local wallet.**
 4) **An SSH client such as [Bitvise](https://dl.bitvise.com/BvSshClient-Inst.exe)**
@@ -146,7 +146,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 ***step 4***
 * Go to the console within the wallet
 
-![Example-console](https://i.imgur.com/VEgTGcY.png)
+![Example-console](https://imgur.com/60QMDow)
 ***
 
 ***Step 5***
@@ -166,7 +166,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 1***
 * Go to the tools tab within the wallet and click open "masternode configuration file"
-![Example-create](https://i.imgur.com/VEgTGcY.png)
+![Example-create](https://imgur.com/cc3KijC)
 ***
 
 ***Step 2***
