@@ -146,7 +146,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 ***step 4***
 * Go to the console within the wallet
 
-![Example-console](https://imgur.com/60QMDow)
+![Example-console](https://i.imgur.com/60QMDow.png)
 ***
 
 ***Step 5***
@@ -166,7 +166,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 1***
 * Go to the tools tab within the wallet and click open "masternode configuration file"
-![Example-create](https://imgur.com/cc3KijC)
+![Example-create](https://i.imgur.com/60QMDow.png)
 ***
 
 ***Step 2***
@@ -177,7 +177,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 * The `PrivKey` is your masternode private key (This is also in the Bitvise terminal that you have open).
 * The `TxHash` is the transaction ID/long key that you copied to the text file.
 * The `Output Index` is the 0 or 1 that you copied to your text file.
-![Example-create](https://i.imgur.com/qh8xKei.png)
+![Example-create](https://i.imgur.com/cc3KijC.png)
 
 Click "File Save"
 ***
