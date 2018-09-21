@@ -166,7 +166,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 1***
 * Go to the tools tab within the wallet and click open "masternode configuration file"
-![Example-create](https://i.imgur.com/60QMDow.png)
+![Example-create](https://i.imgur.com/cc3KijC.png)
 ***
 
 ***Step 2***
