@@ -1,16 +1,16 @@
 #!/bin/bash
 
 TMP_FOLDER=$(mktemp -d)
-CONFIG_FILE='ioncoin.conf'
-CONFIGFOLDER='/root/.ioncoin'
-COIN_DAEMON='iond'
-COIN_CLI='ion-cli'
+CONFIG_FILE='wagerr.conf'
+CONFIGFOLDER='/root/.wagerr'
+COIN_DAEMON='wagerrd'
+COIN_CLI='wagerr-cli'
 COIN_PATH='/usr/local/bin/'
-COIN_REPO='https://github.com/cevap/ion.git'
-COIN_TGZ='https://github.com/cevap/ion/releases/download/3.0.5/ion-3.0.5-x86_64-linux-gnu.tar.gz'
+COIN_REPO='https://github.com/wagerr/wagerr.git'
+COIN_TGZ='https://github.com/wagerr/wagerr/releases/download/v2.0.0/wagerr-2.0.0-x86_64-linux-gnu.tar.gz'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
-COIN_NAME='Ion Core'
-COIN_PORT=12700
+COIN_NAME='Wagerr'
+COIN_PORT=55002
 
 
 NODEIP=$(curl -s4 icanhazip.com)
